@@ -1,4 +1,4 @@
-# RefScraper---An-Automated-Image-Fetcher
+# RefScraper - An Automated Image Fetcher
 RefScraper - An automated tool that finds the exact watch image for every Ref ID and adds it to your sheet automatically.
 
 Automates a task that would otherwise be done by hand: for every watch reference number in an Excel sheet, find a picture of that watch on Google Images and insert it into the matching row, so you end up with a spreadsheet of references with pictures sitting right next to them.
