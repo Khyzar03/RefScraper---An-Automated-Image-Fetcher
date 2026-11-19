@@ -1,0 +1,20 @@
+Install Python (if not already installed on that PC):
+Download from python.org
+
+Run the installer and make sure to tick the checkbox "Add python.exe to PATH".
+
+Install Required Packages (One Click):
+Double-click Install_Requirements.bat.
+It will automatically install playwright, openpyxl, and Pillow.
+
+Save your excel file with 2 columns: Picture & Reference(with all the ref numbers in te column)
+
+open Automation.py file in any IDE or notepad, and seacrh INPUT_FILE command and change the name same as your excel file.
+
+Run the Script:
+Double-click Run_Omega_Reference.bat.
+It automatically starts Edge in remote debugging mode, connects to it, and processes the watches into Omega_Reference_with_images.xlsx.
+
+Important Notes for the Other User
+First Run Verification: If Google presents a one-time "I am not a robot" checkbox in Edge, the user simply needs to tick the box in the open Edge window. The script will pause and automatically resume once cleared.
+Do Not Close the Opened Edge Window: The automation works through that specific Edge session, so they should let it run in the background while processing.
